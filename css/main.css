@@ -34,6 +34,17 @@ body {
 	object-fit: cover;
 }
 
+.text-over-image-right {
+	position: absolute;
+	top: 340px;
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	padding: 10px;
+	font-weight: bold;
+	right: 2%;
+}
+
 .headline-main {
 	text-align: center;
 	font-size: 22px;
@@ -61,13 +72,16 @@ body {
 .column-main-33 {
 	width: 33%;
 	text-align: center;
-	padding: 2%;
 }
 
-.column-main-65 {
-	width: 65%;
+.column-main-50 {
+	width: 50%;
 	text-align: center;
-	padding: 2%;
+}
+
+.column-main-67 {
+	width: 67%;
+	text-align: center;
 }
 
 .icon-column-main {
@@ -79,9 +93,23 @@ body {
 	text-align: center;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 2%;
+	padding: 3%;
 }
 
 .paragraph-column-main {
-	padding: 2%;
+	padding: 3%;
+}
+
+.accent-2 {
+	background: #b5bdbc;
+}
+
+#battisti-livingroom-2 {
+	width: 100%;
+	object-fit: cover;
+}
+
+footer {
+	background: #cfcabe;
+	height: 100px;
 }
