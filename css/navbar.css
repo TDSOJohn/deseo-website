@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: #eaeaea;
+}
+
+.navbar-item {
+    margin: 0;
+    padding: 10px;
+}
+
+.spacer {
+
+}
+
+.navbar-icon {
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
