@@ -10,10 +10,20 @@
 .navbar-item {
     margin: 0;
     padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    background: #dfdfdf;
 }
 
 .spacer {
-
+    background: #aaa;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    height: 30px;
 }
 
 .navbar-icon {
