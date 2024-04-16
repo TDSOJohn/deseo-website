@@ -25,20 +25,29 @@
 
 .column-container {
     width: 100%;
-    display: flex;
     background: #fff;
+    display: flex;
+    flex-direction: row;
 }
 
 .column-main-33 {
-    width: 33%;
+    flex-basis: 33%;
     text-align: center;
     padding: 2%;
 }
 
 .column-main-65 {
-    width: 65%;
+    flex-basis: 65%;
     text-align: center;
     padding: 2%;
+}
+
+.column-main-65 > img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 6px;
 }
 
 .icon-column-main {
